@@ -7,15 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF028E291FBC676D00004EB4 /* output.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF028E281FBBAF1C00004EB4 /* output.mp4 */; };
+		CF028E2B1FBC6D0400004EB4 /* IMG_1505.MOV in Resources */ = {isa = PBXBuildFile; fileRef = CF028E2A1FBC6D0400004EB4 /* IMG_1505.MOV */; };
+		CF2C59871FBCBA9D00F61678 /* output1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF2C59831FBCAF4E00F61678 /* output1.mp4 */; };
+		CF2C59881FBCBA9D00F61678 /* output2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF2C59841FBCB12700F61678 /* output2.mp4 */; };
+		CF2C59891FBCBA9D00F61678 /* output3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF2C59851FBCB1E700F61678 /* output3.mp4 */; };
+		CF2C598A1FBCBA9D00F61678 /* output4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF2C59861FBCB28500F61678 /* output4.mp4 */; };
+		CF9021121FB486FB00768FBD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF90CC161FB245F000D1EB63 /* AVFoundation.framework */; };
+		CF9021141FB4871600768FBD /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9021131FB4870800768FBD /* AVKit.framework */; };
 		CF90CC011FB245C700D1EB63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF90CC001FB245C700D1EB63 /* AppDelegate.m */; };
 		CF90CC041FB245C700D1EB63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CF90CC031FB245C700D1EB63 /* ViewController.m */; };
 		CF90CC071FB245C700D1EB63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF90CC051FB245C700D1EB63 /* Main.storyboard */; };
 		CF90CC091FB245C700D1EB63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF90CC081FB245C700D1EB63 /* Assets.xcassets */; };
 		CF90CC0C1FB245C700D1EB63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF90CC0A1FB245C700D1EB63 /* LaunchScreen.storyboard */; };
 		CF90CC0F1FB245C700D1EB63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF90CC0E1FB245C700D1EB63 /* main.m */; };
+		CF90CC181FB247D900D1EB63 /* ClapSound.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CF90CC171FB2479800D1EB63 /* ClapSound.m4a */; };
+		CF90CC1A1FB24E3B00D1EB63 /* HitTestVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF90CC191FB24DF400D1EB63 /* HitTestVideo.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		CF028E281FBBAF1C00004EB4 /* output.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = output.mp4; path = ../../QuantDoctorApp/QuantDoctorApp/output.mp4; sourceTree = "<group>"; };
+		CF028E2A1FBC6D0400004EB4 /* IMG_1505.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_1505.MOV; sourceTree = "<group>"; };
+		CF2C59831FBCAF4E00F61678 /* output1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = output1.mp4; sourceTree = "<group>"; };
+		CF2C59841FBCB12700F61678 /* output2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = output2.mp4; sourceTree = "<group>"; };
+		CF2C59851FBCB1E700F61678 /* output3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = output3.mp4; sourceTree = "<group>"; };
+		CF2C59861FBCB28500F61678 /* output4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = output4.mp4; sourceTree = "<group>"; };
+		CF9021131FB4870800768FBD /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		CF90CBFC1FB245C700D1EB63 /* ReadAudio_AVAssetReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadAudio_AVAssetReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF90CBFF1FB245C700D1EB63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CF90CC001FB245C700D1EB63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +43,9 @@
 		CF90CC0B1FB245C700D1EB63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CF90CC0D1FB245C700D1EB63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF90CC0E1FB245C700D1EB63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF90CC161FB245F000D1EB63 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		CF90CC171FB2479800D1EB63 /* ClapSound.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ClapSound.m4a; sourceTree = "<group>"; };
+		CF90CC191FB24DF400D1EB63 /* HitTestVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = HitTestVideo.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +53,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF9021141FB4871600768FBD /* AVKit.framework in Frameworks */,
+				CF9021121FB486FB00768FBD /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +66,7 @@
 			children = (
 				CF90CBFE1FB245C700D1EB63 /* ReadAudio_AVAssetReader */,
 				CF90CBFD1FB245C700D1EB63 /* Products */,
+				CF90CC151FB245F000D1EB63 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +81,14 @@
 		CF90CBFE1FB245C700D1EB63 /* ReadAudio_AVAssetReader */ = {
 			isa = PBXGroup;
 			children = (
+				CF90CC171FB2479800D1EB63 /* ClapSound.m4a */,
+				CF028E2A1FBC6D0400004EB4 /* IMG_1505.MOV */,
+				CF90CC191FB24DF400D1EB63 /* HitTestVideo.mp4 */,
+				CF028E281FBBAF1C00004EB4 /* output.mp4 */,
+				CF2C59831FBCAF4E00F61678 /* output1.mp4 */,
+				CF2C59841FBCB12700F61678 /* output2.mp4 */,
+				CF2C59851FBCB1E700F61678 /* output3.mp4 */,
+				CF2C59861FBCB28500F61678 /* output4.mp4 */,
 				CF90CBFF1FB245C700D1EB63 /* AppDelegate.h */,
 				CF90CC001FB245C700D1EB63 /* AppDelegate.m */,
 				CF90CC021FB245C700D1EB63 /* ViewController.h */,
@@ -69,6 +100,15 @@
 				CF90CC0E1FB245C700D1EB63 /* main.m */,
 			);
 			path = ReadAudio_AVAssetReader;
+			sourceTree = "<group>";
+		};
+		CF90CC151FB245F000D1EB63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF9021131FB4870800768FBD /* AVKit.framework */,
+				CF90CC161FB245F000D1EB63 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -129,6 +169,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF2C59871FBCBA9D00F61678 /* output1.mp4 in Resources */,
+				CF2C59881FBCBA9D00F61678 /* output2.mp4 in Resources */,
+				CF2C59891FBCBA9D00F61678 /* output3.mp4 in Resources */,
+				CF2C598A1FBCBA9D00F61678 /* output4.mp4 in Resources */,
+				CF028E291FBC676D00004EB4 /* output.mp4 in Resources */,
+				CF90CC1A1FB24E3B00D1EB63 /* HitTestVideo.mp4 in Resources */,
+				CF90CC181FB247D900D1EB63 /* ClapSound.m4a in Resources */,
+				CF028E2B1FBC6D0400004EB4 /* IMG_1505.MOV in Resources */,
 				CF90CC0C1FB245C700D1EB63 /* LaunchScreen.storyboard in Resources */,
 				CF90CC091FB245C700D1EB63 /* Assets.xcassets in Resources */,
 				CF90CC071FB245C700D1EB63 /* Main.storyboard in Resources */,
@@ -281,6 +329,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZKJXX63JE7;
 				INFOPLIST_FILE = ReadAudio_AVAssetReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HittingTech.ReadAudio-AVAssetReader";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +344,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZKJXX63JE7;
 				INFOPLIST_FILE = ReadAudio_AVAssetReader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "HittingTech.ReadAudio-AVAssetReader";
 				PRODUCT_NAME = "$(TARGET_NAME)";
