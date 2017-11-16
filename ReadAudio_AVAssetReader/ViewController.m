@@ -33,16 +33,12 @@ int hitFrame;
 - (void) viewDidLoad {
     [super viewDidLoad];
  
-
-
     //Extract Audio From Video
-
-    //For testing purposes - Use output.mp4. The HitTestVideo.mp4 has been converted via iMovie which forced to 30FPS. This file works fine. Why not the other file also???
     
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask, YES);
     NSString *documentsDirectory = [paths objectAtIndex:0];
     
-    AVAsset *movieAsset = [AVAsset assetWithURL:[[NSBundle mainBundle] URLForResource:@"output4" withExtension:@"mp4"]]; //CHANGE THIS FILE TO TEST
+    AVAsset *movieAsset = [AVAsset assetWithURL:[[NSBundle mainBundle] URLForResource:@"output" withExtension:@"mp4"]]; //CHANGE THIS FILE TO TEST
     
     AVAssetTrack * videoAssetTrack = [movieAsset tracksWithMediaType: AVMediaTypeVideo].firstObject;
 //    capture_frames_per_second = videoAssetTrack.nominalFrameRate;
@@ -54,7 +50,7 @@ int hitFrame;
     
     NSString *audioPath = [documentsDirectory stringByAppendingPathComponent:@"soundOneNew2.m4a"];
    //  NSString *audioPath = [documentsDirectory stringByAppendingPathComponent:@"soundOneNew2.caf"];
-   //   NSString *audioPath = [documentsDirectory stringByAppendingPathComponent:@"soundOneNew2.aif"];
+    //  NSString *audioPath = [documentsDirectory stringByAppendingPathComponent:@"soundOneNew2.aif"];
     
     
     CMTime videoDuration = movieAsset.duration;

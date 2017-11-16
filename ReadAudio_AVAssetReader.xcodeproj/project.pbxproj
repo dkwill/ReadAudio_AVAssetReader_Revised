@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CF028E291FBC676D00004EB4 /* output.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF028E281FBBAF1C00004EB4 /* output.mp4 */; };
-		CF028E2B1FBC6D0400004EB4 /* IMG_1505.MOV in Resources */ = {isa = PBXBuildFile; fileRef = CF028E2A1FBC6D0400004EB4 /* IMG_1505.MOV */; };
 		CF2C59871FBCBA9D00F61678 /* output1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF2C59831FBCAF4E00F61678 /* output1.mp4 */; };
 		CF2C59881FBCBA9D00F61678 /* output2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF2C59841FBCB12700F61678 /* output2.mp4 */; };
 		CF2C59891FBCBA9D00F61678 /* output3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF2C59851FBCB1E700F61678 /* output3.mp4 */; };
@@ -21,17 +20,15 @@
 		CF90CC091FB245C700D1EB63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF90CC081FB245C700D1EB63 /* Assets.xcassets */; };
 		CF90CC0C1FB245C700D1EB63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF90CC0A1FB245C700D1EB63 /* LaunchScreen.storyboard */; };
 		CF90CC0F1FB245C700D1EB63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF90CC0E1FB245C700D1EB63 /* main.m */; };
-		CF90CC181FB247D900D1EB63 /* ClapSound.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CF90CC171FB2479800D1EB63 /* ClapSound.m4a */; };
-		CF90CC1A1FB24E3B00D1EB63 /* HitTestVideo.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF90CC191FB24DF400D1EB63 /* HitTestVideo.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		CF028E281FBBAF1C00004EB4 /* output.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = output.mp4; path = ../../QuantDoctorApp/QuantDoctorApp/output.mp4; sourceTree = "<group>"; };
-		CF028E2A1FBC6D0400004EB4 /* IMG_1505.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = IMG_1505.MOV; sourceTree = "<group>"; };
 		CF2C59831FBCAF4E00F61678 /* output1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = output1.mp4; sourceTree = "<group>"; };
 		CF2C59841FBCB12700F61678 /* output2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = output2.mp4; sourceTree = "<group>"; };
 		CF2C59851FBCB1E700F61678 /* output3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = output3.mp4; sourceTree = "<group>"; };
 		CF2C59861FBCB28500F61678 /* output4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = output4.mp4; sourceTree = "<group>"; };
+		CF2C598C1FBE0FAB00F61678 /* output.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = output.mp4; sourceTree = "<group>"; };
 		CF9021131FB4870800768FBD /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		CF90CBFC1FB245C700D1EB63 /* ReadAudio_AVAssetReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadAudio_AVAssetReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF90CBFF1FB245C700D1EB63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -44,8 +41,6 @@
 		CF90CC0D1FB245C700D1EB63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CF90CC0E1FB245C700D1EB63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CF90CC161FB245F000D1EB63 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		CF90CC171FB2479800D1EB63 /* ClapSound.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ClapSound.m4a; sourceTree = "<group>"; };
-		CF90CC191FB24DF400D1EB63 /* HitTestVideo.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = HitTestVideo.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +56,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF2C598B1FBE0F9700F61678 /* TestVideos */ = {
+			isa = PBXGroup;
+			children = (
+				CF2C598C1FBE0FAB00F61678 /* output.mp4 */,
+				CF2C59831FBCAF4E00F61678 /* output1.mp4 */,
+				CF2C59841FBCB12700F61678 /* output2.mp4 */,
+				CF2C59851FBCB1E700F61678 /* output3.mp4 */,
+				CF2C59861FBCB28500F61678 /* output4.mp4 */,
+			);
+			path = TestVideos;
+			sourceTree = "<group>";
+		};
 		CF90CBF31FB245C700D1EB63 = {
 			isa = PBXGroup;
 			children = (
@@ -81,14 +88,8 @@
 		CF90CBFE1FB245C700D1EB63 /* ReadAudio_AVAssetReader */ = {
 			isa = PBXGroup;
 			children = (
-				CF90CC171FB2479800D1EB63 /* ClapSound.m4a */,
-				CF028E2A1FBC6D0400004EB4 /* IMG_1505.MOV */,
-				CF90CC191FB24DF400D1EB63 /* HitTestVideo.mp4 */,
+				CF2C598B1FBE0F9700F61678 /* TestVideos */,
 				CF028E281FBBAF1C00004EB4 /* output.mp4 */,
-				CF2C59831FBCAF4E00F61678 /* output1.mp4 */,
-				CF2C59841FBCB12700F61678 /* output2.mp4 */,
-				CF2C59851FBCB1E700F61678 /* output3.mp4 */,
-				CF2C59861FBCB28500F61678 /* output4.mp4 */,
 				CF90CBFF1FB245C700D1EB63 /* AppDelegate.h */,
 				CF90CC001FB245C700D1EB63 /* AppDelegate.m */,
 				CF90CC021FB245C700D1EB63 /* ViewController.h */,
@@ -174,9 +175,6 @@
 				CF2C59891FBCBA9D00F61678 /* output3.mp4 in Resources */,
 				CF2C598A1FBCBA9D00F61678 /* output4.mp4 in Resources */,
 				CF028E291FBC676D00004EB4 /* output.mp4 in Resources */,
-				CF90CC1A1FB24E3B00D1EB63 /* HitTestVideo.mp4 in Resources */,
-				CF90CC181FB247D900D1EB63 /* ClapSound.m4a in Resources */,
-				CF028E2B1FBC6D0400004EB4 /* IMG_1505.MOV in Resources */,
 				CF90CC0C1FB245C700D1EB63 /* LaunchScreen.storyboard in Resources */,
 				CF90CC091FB245C700D1EB63 /* Assets.xcassets in Resources */,
 				CF90CC071FB245C700D1EB63 /* Main.storyboard in Resources */,
