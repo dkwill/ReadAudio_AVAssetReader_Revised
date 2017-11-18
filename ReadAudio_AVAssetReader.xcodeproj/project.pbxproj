@@ -7,11 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CF028E291FBC676D00004EB4 /* output.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF028E281FBBAF1C00004EB4 /* output.mp4 */; };
 		CF2C59871FBCBA9D00F61678 /* output1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF2C59831FBCAF4E00F61678 /* output1.mp4 */; };
 		CF2C59881FBCBA9D00F61678 /* output2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF2C59841FBCB12700F61678 /* output2.mp4 */; };
 		CF2C59891FBCBA9D00F61678 /* output3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF2C59851FBCB1E700F61678 /* output3.mp4 */; };
 		CF2C598A1FBCBA9D00F61678 /* output4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF2C59861FBCB28500F61678 /* output4.mp4 */; };
+		CF2C59991FBFBEDC00F61678 /* output5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF2C598E1FBFB9A000F61678 /* output5.mp4 */; };
+		CF2C599A1FBFBEDC00F61678 /* output6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF2C59911FBFBAF000F61678 /* output6.mp4 */; };
+		CF2C599B1FBFBEDC00F61678 /* output7.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF2C59931FBFBC4600F61678 /* output7.mp4 */; };
+		CF2C599C1FBFBEDC00F61678 /* output8.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF2C59951FBFBD1B00F61678 /* output8.mp4 */; };
+		CF2C599D1FBFBEDC00F61678 /* output9.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = CF2C59971FBFBE3100F61678 /* output9.mp4 */; };
+		CF2C599E1FBFBEDC00F61678 /* audioOnly5.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CF2C598D1FBFB9A000F61678 /* audioOnly5.m4a */; };
+		CF2C599F1FBFBEDC00F61678 /* audioOnly6.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CF2C59921FBFBB4A00F61678 /* audioOnly6.m4a */; };
+		CF2C59A01FBFBEDC00F61678 /* audioOnly7.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CF2C59941FBFBC6700F61678 /* audioOnly7.m4a */; };
+		CF2C59A11FBFBEDC00F61678 /* audioOnly8.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CF2C59961FBFBD2600F61678 /* audioOnly8.m4a */; };
+		CF2C59A21FBFBEDC00F61678 /* audioOnly9.m4a in Resources */ = {isa = PBXBuildFile; fileRef = CF2C59981FBFBE3800F61678 /* audioOnly9.m4a */; };
 		CF9021121FB486FB00768FBD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF90CC161FB245F000D1EB63 /* AVFoundation.framework */; };
 		CF9021141FB4871600768FBD /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF9021131FB4870800768FBD /* AVKit.framework */; };
 		CF90CC011FB245C700D1EB63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF90CC001FB245C700D1EB63 /* AppDelegate.m */; };
@@ -23,12 +32,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		CF028E281FBBAF1C00004EB4 /* output.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; name = output.mp4; path = ../../QuantDoctorApp/QuantDoctorApp/output.mp4; sourceTree = "<group>"; };
 		CF2C59831FBCAF4E00F61678 /* output1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = output1.mp4; sourceTree = "<group>"; };
 		CF2C59841FBCB12700F61678 /* output2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = output2.mp4; sourceTree = "<group>"; };
 		CF2C59851FBCB1E700F61678 /* output3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = output3.mp4; sourceTree = "<group>"; };
 		CF2C59861FBCB28500F61678 /* output4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = output4.mp4; sourceTree = "<group>"; };
 		CF2C598C1FBE0FAB00F61678 /* output.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = output.mp4; sourceTree = "<group>"; };
+		CF2C598D1FBFB9A000F61678 /* audioOnly5.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = audioOnly5.m4a; sourceTree = "<group>"; };
+		CF2C598E1FBFB9A000F61678 /* output5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = output5.mp4; sourceTree = "<group>"; };
+		CF2C59911FBFBAF000F61678 /* output6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = output6.mp4; sourceTree = "<group>"; };
+		CF2C59921FBFBB4A00F61678 /* audioOnly6.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = audioOnly6.m4a; sourceTree = "<group>"; };
+		CF2C59931FBFBC4600F61678 /* output7.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = output7.mp4; sourceTree = "<group>"; };
+		CF2C59941FBFBC6700F61678 /* audioOnly7.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = audioOnly7.m4a; sourceTree = "<group>"; };
+		CF2C59951FBFBD1B00F61678 /* output8.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = output8.mp4; sourceTree = "<group>"; };
+		CF2C59961FBFBD2600F61678 /* audioOnly8.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = audioOnly8.m4a; sourceTree = "<group>"; };
+		CF2C59971FBFBE3100F61678 /* output9.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = output9.mp4; sourceTree = "<group>"; };
+		CF2C59981FBFBE3800F61678 /* audioOnly9.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = audioOnly9.m4a; sourceTree = "<group>"; };
+		CF2C59A31FBFD17D00F61678 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		CF2C59A41FBFD22100F61678 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		CF9021131FB4870800768FBD /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		CF90CBFC1FB245C700D1EB63 /* ReadAudio_AVAssetReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadAudio_AVAssetReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF90CBFF1FB245C700D1EB63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,7 +76,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CF2C598B1FBE0F9700F61678 /* TestVideos */ = {
+		CF2C598B1FBE0F9700F61678 /* TestVideoAudio */ = {
 			isa = PBXGroup;
 			children = (
 				CF2C598C1FBE0FAB00F61678 /* output.mp4 */,
@@ -64,8 +84,18 @@
 				CF2C59841FBCB12700F61678 /* output2.mp4 */,
 				CF2C59851FBCB1E700F61678 /* output3.mp4 */,
 				CF2C59861FBCB28500F61678 /* output4.mp4 */,
+				CF2C598E1FBFB9A000F61678 /* output5.mp4 */,
+				CF2C59911FBFBAF000F61678 /* output6.mp4 */,
+				CF2C59931FBFBC4600F61678 /* output7.mp4 */,
+				CF2C59951FBFBD1B00F61678 /* output8.mp4 */,
+				CF2C59971FBFBE3100F61678 /* output9.mp4 */,
+				CF2C598D1FBFB9A000F61678 /* audioOnly5.m4a */,
+				CF2C59921FBFBB4A00F61678 /* audioOnly6.m4a */,
+				CF2C59941FBFBC6700F61678 /* audioOnly7.m4a */,
+				CF2C59961FBFBD2600F61678 /* audioOnly8.m4a */,
+				CF2C59981FBFBE3800F61678 /* audioOnly9.m4a */,
 			);
-			path = TestVideos;
+			path = TestVideoAudio;
 			sourceTree = "<group>";
 		};
 		CF90CBF31FB245C700D1EB63 = {
@@ -88,8 +118,7 @@
 		CF90CBFE1FB245C700D1EB63 /* ReadAudio_AVAssetReader */ = {
 			isa = PBXGroup;
 			children = (
-				CF2C598B1FBE0F9700F61678 /* TestVideos */,
-				CF028E281FBBAF1C00004EB4 /* output.mp4 */,
+				CF2C598B1FBE0F9700F61678 /* TestVideoAudio */,
 				CF90CBFF1FB245C700D1EB63 /* AppDelegate.h */,
 				CF90CC001FB245C700D1EB63 /* AppDelegate.m */,
 				CF90CC021FB245C700D1EB63 /* ViewController.h */,
@@ -106,6 +135,8 @@
 		CF90CC151FB245F000D1EB63 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				CF2C59A41FBFD22100F61678 /* CoreMedia.framework */,
+				CF2C59A31FBFD17D00F61678 /* AssetsLibrary.framework */,
 				CF9021131FB4870800768FBD /* AVKit.framework */,
 				CF90CC161FB245F000D1EB63 /* AVFoundation.framework */,
 			);
@@ -170,11 +201,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF2C59991FBFBEDC00F61678 /* output5.mp4 in Resources */,
+				CF2C599A1FBFBEDC00F61678 /* output6.mp4 in Resources */,
+				CF2C599B1FBFBEDC00F61678 /* output7.mp4 in Resources */,
+				CF2C599C1FBFBEDC00F61678 /* output8.mp4 in Resources */,
+				CF2C599D1FBFBEDC00F61678 /* output9.mp4 in Resources */,
+				CF2C599E1FBFBEDC00F61678 /* audioOnly5.m4a in Resources */,
+				CF2C599F1FBFBEDC00F61678 /* audioOnly6.m4a in Resources */,
+				CF2C59A01FBFBEDC00F61678 /* audioOnly7.m4a in Resources */,
+				CF2C59A11FBFBEDC00F61678 /* audioOnly8.m4a in Resources */,
+				CF2C59A21FBFBEDC00F61678 /* audioOnly9.m4a in Resources */,
 				CF2C59871FBCBA9D00F61678 /* output1.mp4 in Resources */,
 				CF2C59881FBCBA9D00F61678 /* output2.mp4 in Resources */,
 				CF2C59891FBCBA9D00F61678 /* output3.mp4 in Resources */,
 				CF2C598A1FBCBA9D00F61678 /* output4.mp4 in Resources */,
-				CF028E291FBC676D00004EB4 /* output.mp4 in Resources */,
 				CF90CC0C1FB245C700D1EB63 /* LaunchScreen.storyboard in Resources */,
 				CF90CC091FB245C700D1EB63 /* Assets.xcassets in Resources */,
 				CF90CC071FB245C700D1EB63 /* Main.storyboard in Resources */,

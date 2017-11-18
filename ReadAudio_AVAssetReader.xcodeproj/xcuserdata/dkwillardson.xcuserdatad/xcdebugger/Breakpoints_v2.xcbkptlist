@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "ReadAudio_AVAssetReader/ViewController.m"
-            timestampString = "532545870.112902"
+            timestampString = "532696309.985831"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "304"
-            endingLineNumber = "304"
+            startingLineNumber = "300"
+            endingLineNumber = "300"
             landmarkName = "-sendFrames"
             landmarkType = "7">
          </BreakpointContent>

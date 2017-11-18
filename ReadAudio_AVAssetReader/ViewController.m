@@ -38,7 +38,7 @@ int hitFrame;
     NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask, YES);
     NSString *documentsDirectory = [paths objectAtIndex:0];
     
-    AVAsset *movieAsset = [AVAsset assetWithURL:[[NSBundle mainBundle] URLForResource:@"output" withExtension:@"mp4"]]; //CHANGE THIS FILE TO TEST
+    AVAsset *movieAsset = [AVAsset assetWithURL:[[NSBundle mainBundle] URLForResource:@"output8" withExtension:@"mp4"]]; //CHANGE THIS FILE TO TEST
     
     AVAssetTrack * videoAssetTrack = [movieAsset tracksWithMediaType: AVMediaTypeVideo].firstObject;
 //    capture_frames_per_second = videoAssetTrack.nominalFrameRate;
@@ -48,7 +48,7 @@ int hitFrame;
     
     //Extract Audio From Video
     
-    NSString *audioPath = [documentsDirectory stringByAppendingPathComponent:@"soundOneNew2.m4a"];
+    NSString *audioPath = [documentsDirectory stringByAppendingPathComponent:@"soundOneNew.m4a"];
    //  NSString *audioPath = [documentsDirectory stringByAppendingPathComponent:@"soundOneNew2.caf"];
     //  NSString *audioPath = [documentsDirectory stringByAppendingPathComponent:@"soundOneNew2.aif"];
     
@@ -165,14 +165,14 @@ int hitFrame;
 //                                        [NSNumber numberWithBool:NO],AVLinearPCMIsFloatKey,
 //                                        [NSNumber numberWithBool:NO], AVLinearPCMIsBigEndianKey,
 //                                        nil];
-//
+
     
     
     NSDictionary* outputSettingsDict = [[NSDictionary alloc] initWithObjectsAndKeys:
                                         [NSNumber numberWithInt:kAudioFormatLinearPCM],AVFormatIDKey,
 
                                        // [NSNumber numberWithInt:44100.0],AVSampleRateKey, //Not Supported
-                                        //     [NSNumber numberWithInt: 2],AVNumberOfChannelsKey,    //Not Supported
+                                       // [NSNumber numberWithInt: 2],AVNumberOfChannelsKey,    //Not Supported
                                         [NSNumber numberWithInt:16],AVLinearPCMBitDepthKey,
                                         [NSNumber numberWithBool:NO],AVLinearPCMIsBigEndianKey,
                                         [NSNumber numberWithBool:NO],AVLinearPCMIsFloatKey,
@@ -308,6 +308,13 @@ int hitFrame;
         //output2 -              8                              8                     0
         //output3 -              7                              8                    -1
         //output4 -              8                              4                    +4
+        //output5 -              7                              4                    +3
+        //output6 -              8                              4                    +4
+        //output7 -              8                              6                    +2
+        //output8 -              8                              8                    +3
+        //output9 -              4                              5                    -1
+        
+        
         
         //NOTE - Small part of the issue may be actual FPS is not always 240. All of the above were 240FPS actual except "output1" which was 239.98
         

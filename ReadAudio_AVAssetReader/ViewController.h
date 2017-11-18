@@ -8,6 +8,7 @@
 
 #import <UIKit/UIKit.h>
 #import<AVFoundation/AVFoundation.h>
+#import<AssetsLibrary/AssetsLibrary.h>
 
 #define CAPTURE_FRAMES_PER_SECOND 240
 //#define CAPTURE_FRAMES_PER_SECOND 30
